@@ -6,6 +6,26 @@ __pycache__/
 # C extensions
 *.so
 
+# Virtual environment
+venv/
+.env/
+*.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+.idea/
+
+# Windows-specific files
+Thumbs.db
+desktop.ini
+
+# Python-specific
+pip-log.txt
+pip-delete-this-directory.txt
+
 # Distribution / packaging
 .Python
 build/
@@ -25,6 +45,13 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+
+# Logs
+*.log
+
+# Environment variables files
+.env
+*.env
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -74,9 +101,6 @@ docs/_build/
 # PyBuilder
 .pybuilder/
 target/
-
-# Jupyter Notebook
-.ipynb_checkpoints
 
 # IPython
 profile_default/
